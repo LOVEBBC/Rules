@@ -7,6 +7,10 @@ tiebac.baidu.com
 mbd.baidu.com
 dm.toutiao.com
 sofire.baidu.com
+crab.baidu.com
+feed-image.baidu.com
+caid.baidu.com
+mbd.baidu.com
 
 .1phads.com
 .1rtb.com
