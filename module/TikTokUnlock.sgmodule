@@ -1,3 +1,4 @@
+#!name=TikTok日区
 [URL Rewrite]
 
 (?<=_region=)CN(?=&) JP 307
