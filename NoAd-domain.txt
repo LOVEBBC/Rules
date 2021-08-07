@@ -14,6 +14,27 @@ mbd.baidu.com
 dm.bytedance.com
 browserkernel.baidu.com
 
+vv.video.qq.com
+info6.video.qq.com
+aedns.weixin.qq.com
+dp3.qq.com
+adsmind.apdcdn.tc.qq.com
+adsmind.tc.qq.com
+mtrace.qq.com
+btrace.qq.com
+.gdtimg.com
+.gtimg.cn
+.gtimg.com
+.ugdtimg.com
+wxsnsdy.wxs.qq.com
+wxsnsdythumb.wxs.qq.com
+qidian.qpic.cn
+news.l.qq.com
+d.kugou.com
+mobilelog.kugou.com
+mbs1.bdstatic.com
+b.bdstatic.com
+
 .1phads.com
 .1rtb.com
 .1xl.co.uk
