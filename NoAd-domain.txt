@@ -15,6 +15,11 @@ dm.bytedance.com
 browserkernel.baidu.com
 
 vv.video.qq.com
+vi.bls.mdt.qq.com
+.gvc.vod.tencent-cloud.com
+dldir1.qq.com
+vvoice.play.ott.video.qq.com
+vv.play.ott.video.qq.com
 info6.video.qq.com
 aedns.weixin.qq.com
 dp3.qq.com
