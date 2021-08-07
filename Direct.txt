@@ -4,3 +4,9 @@
 .wmdang.com
 taobao.com
 baidu.com
+time.apple.com
+.itunes.apple.com
+.apps.apple.com
+.mzstatic.com
+ocsp2.apple.com
+.ess.apple.com
