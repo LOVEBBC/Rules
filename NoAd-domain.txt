@@ -40,6 +40,9 @@ mobilelog.kugou.com
 mbs1.bdstatic.com
 b.bdstatic.com
 
+.sougou.com
+ads.95516.com
+
 .1phads.com
 .1rtb.com
 .1xl.co.uk
