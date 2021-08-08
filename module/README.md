@@ -5,5 +5,5 @@
                
                
 二、YouTube去视频内广告：1.在surge模组添加模块，https://raw.githubusercontent.com/imlzc/surge/main/module/YouTubeAD.sgmodule
-                      2.如果没生效，请在MitM里手动添加hostname：*.googlevideo
+                      
 以上均需开启MitM
