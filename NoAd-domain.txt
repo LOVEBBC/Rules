@@ -13,6 +13,11 @@ caid.baidu.com
 mbd.baidu.com
 dm.bytedance.com
 browserkernel.baidu.com
+aod-image.baidu.com
+pim.baidu.com
+hmma.baidu.com
+c.tieba.baidu.com
+
 
 vv.video.qq.com
 vi.bls.mdt.qq.com
