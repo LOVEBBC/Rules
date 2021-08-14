@@ -7,8 +7,6 @@ baidu.com
 time.apple.com
 iosapps.itunes.apple.com
 .mzstatic.com
-ocsp2.apple.com
-.ess.apple.com
 base.95516.com
 wallet.95516.com
 pay.95516.com
