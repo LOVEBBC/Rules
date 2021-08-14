@@ -4,7 +4,6 @@
 .wmdang.com
 taobao.com
 baidu.com
-time.apple.com
 iosapps.itunes.apple.com
 .mzstatic.com
 base.95516.com
