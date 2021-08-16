@@ -3,6 +3,7 @@ feedback.uc.cn
 
 
 smr.snssdk.com
+tnc3-aliec2.snssdk.com
 dm-hl.toutiao.com
 tiebaac.baidu.com
 .pglstatp-toutiao.com
