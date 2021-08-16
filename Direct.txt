@@ -9,4 +9,5 @@ iosapps.itunes.apple.com
 base.95516.com
 wallet.95516.com
 pay.95516.com
+cdn.v2ex.com
 
