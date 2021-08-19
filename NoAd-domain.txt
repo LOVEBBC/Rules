@@ -4,6 +4,7 @@ ut2.shuqistat.com
 h-adashx.ut.taobao.com
 dm-lq.toutiao.com
 ulogs.umeng.com
+ulogs.umengcloud.com
 
 smr.snssdk.com
 tnc3-aliec2.snssdk.com
