@@ -1,5 +1,7 @@
 adashx.m.taobao.com
 feedback.uc.cn
+ut2.shuqistat.com
+h-adashx.ut.taobao.com
 
 
 smr.snssdk.com
