@@ -6,8 +6,10 @@ dm-lq.toutiao.com
 ulogs.umeng.com
 ulogs.umengcloud.com
 
+
 smr.snssdk.com
 tnc3-aliec2.snssdk.com
+tnc3-alisc1.snssdk.com
 dm-hl.toutiao.com
 tiebaac.baidu.com
 .pglstatp-toutiao.com
