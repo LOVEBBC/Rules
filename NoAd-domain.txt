@@ -5,6 +5,8 @@ h-adashx.ut.taobao.com
 dm-lq.toutiao.com
 ulogs.umeng.com
 ulogs.umengcloud.com
+log.umsns.com
+plbslog.umeng.com
 
 
 smr.snssdk.com
