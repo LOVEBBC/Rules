@@ -45,8 +45,6 @@ adsmind.tc.qq.com
 mtrace.qq.com
 btrace.qq.com
 .gdtimg.com
-.gtimg.cn
-.gtimg.com
 .ugdtimg.com
 wxsnsdy.wxs.qq.com
 wxsnsdythumb.wxs.qq.com
