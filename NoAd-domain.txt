@@ -35,6 +35,10 @@ feed.baidu.com
 sm.bdimg.com
 hpd.baidu.com
 pic.rmb.bdstatic.com
+hectorstatic.baidu.com
+ss0.baidu.com
+ss1.baidu.com
+ss2.baidu.com
 
 
 vv.video.qq.com
