@@ -33,6 +33,8 @@ hmma.baidu.com
 c.tieba.baidu.com
 feed.baidu.com
 sm.bdimg.com
+hpd.baidu.com
+pic.rmb.bdstatic.com
 
 
 vv.video.qq.com
