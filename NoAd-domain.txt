@@ -31,6 +31,8 @@ aod-image.baidu.com
 pim.baidu.com
 hmma.baidu.com
 c.tieba.baidu.com
+feed.baidu.com
+sm.bdimg.com
 
 
 vv.video.qq.com
