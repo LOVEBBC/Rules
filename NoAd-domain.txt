@@ -40,6 +40,7 @@ ss1.baidu.com
 ss2.baidu.com
 dataaq.yy.com
 mlog.bigda.com
+tb-video.bdstatic.com
 
 
 vv.video.qq.com
