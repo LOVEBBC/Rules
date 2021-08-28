@@ -20,7 +20,6 @@ tcbox.baidu.com
 tiebac.baidu.com
 mbd.baidu.com
 dm.toutiao.com
-sofire.baidu.com
 crab.baidu.com
 feed-image.baidu.com
 caid.baidu.com
@@ -32,6 +31,7 @@ pim.baidu.com
 c.tieba.baidu.com
 feed.baidu.com
 sm.bdimg.com
+hmma.baidu.com
 hpd.baidu.com
 pic.rmb.bdstatic.com
 hectorstatic.baidu.com
