@@ -38,6 +38,8 @@ hectorstatic.baidu.com
 ss0.baidu.com
 ss1.baidu.com
 ss2.baidu.com
+dataaq.yy.com
+mlog.bigda.com
 
 
 vv.video.qq.com
