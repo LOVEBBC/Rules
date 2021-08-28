@@ -41,6 +41,7 @@ ss2.baidu.com
 dataaq.yy.com
 mlog.bigda.com
 tb-video.bdstatic.com
+dm-hl.toutiao.com
 
 
 vv.video.qq.com
