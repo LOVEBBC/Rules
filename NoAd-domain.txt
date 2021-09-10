@@ -46,7 +46,6 @@ tb-video.bdstatic.com
 vv.video.qq.com
 vi.bls.mdt.qq.com
 .gvc.vod.tencent-cloud.com
-dldir1.qq.com
 vvoice.play.ott.video.qq.com
 vv.play.ott.video.qq.com
 info6.video.qq.com
