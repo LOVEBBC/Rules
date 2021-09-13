@@ -1,4 +1,0 @@
-payload:
-  - 'azure.microsoft.com'
-  - '+.google.com
-  - '+.facebook.com
