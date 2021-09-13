@@ -2,3 +2,7 @@ payload:
   - '+.imlzc.com'
   - '+.taobao.com'
   - '+.baidu.com'
+  - 'cdn.jsdelivr.net'
+  - 'youku.com'
+  - 'aiqiyi.com'
+  
