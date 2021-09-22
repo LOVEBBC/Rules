@@ -1,4 +1,6 @@
 # (DNS Cache Pollution)
+# DIY
+DOMAIN-SUFFIX,ipip.net
 # > Amazon
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN,d3c33hcgiwev3.cloudfront.net
