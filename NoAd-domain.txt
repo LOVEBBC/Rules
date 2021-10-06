@@ -43,16 +43,11 @@ mlog.bigda.com
 tb-video.bdstatic.com
 
 
-vv.video.qq.com
 vi.bls.mdt.qq.com
 .gvc.vod.tencent-cloud.com
-vvoice.play.ott.video.qq.com
-vv.play.ott.video.qq.com
-info6.video.qq.com
 aedns.weixin.qq.com
 adsmind.apdcdn.tc.qq.com
 adsmind.tc.qq.com
-btrace.qq.com
 .gdtimg.com
 .ugdtimg.com
 wxsnsdy.wxs.qq.com
