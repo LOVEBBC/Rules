@@ -50,10 +50,8 @@ vvoice.play.ott.video.qq.com
 vv.play.ott.video.qq.com
 info6.video.qq.com
 aedns.weixin.qq.com
-dp3.qq.com
 adsmind.apdcdn.tc.qq.com
 adsmind.tc.qq.com
-mtrace.qq.com
 btrace.qq.com
 .gdtimg.com
 .ugdtimg.com
