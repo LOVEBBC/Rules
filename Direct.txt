@@ -12,3 +12,5 @@ pay.95516.com
 cdn.v2ex.com
 .tapngo.com.hk
 tapngo.queue-it.net
+.cmbchina.com
+.cmbimg.com
