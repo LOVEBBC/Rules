@@ -14,3 +14,6 @@ cdn.v2ex.com
 tapngo.queue-it.net
 .cmbchina.com
 .cmbimg.com
+.paypal.com
+www.paypalobjects.com
+
