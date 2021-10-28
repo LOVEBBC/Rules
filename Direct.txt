@@ -17,10 +17,14 @@ tapngo.queue-it.net
 .paypal.com
 www.paypalobjects.com
 ip.loulan.cf
+
 .futunn.com
 .gtimg.com
 .cloud.tencent.com
 .moomoo.com
+.investassistant.com
+.financialdatamining.com
+stat.tpns.tencent.com
 
 
 
