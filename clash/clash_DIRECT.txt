@@ -5,4 +5,7 @@ payload:
   - 'cdn.jsdelivr.net'
   - 'youku.com'
   - 'aiqiyi.com'
+  - 'gravatar.loli.net'
+  - 'webbb.azurewebsites.net'
+  
   
