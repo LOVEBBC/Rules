@@ -17,7 +17,7 @@ tapngo.queue-it.net
 .paypal.com
 www.paypalobjects.com
 ip.loulan.cf
-
+.122.gov.cn
 .futunn.com
 .gtimg.com
 .cloud.tencent.com
