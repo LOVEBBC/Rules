@@ -25,6 +25,9 @@ ip.loulan.cf
 .investassistant.com
 .financialdatamining.com
 stat.tpns.tencent.com
+.octopuscards.com
+.octopus-cards.com
+.octopus.com.hk
 
 
 
