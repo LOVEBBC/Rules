@@ -7,5 +7,8 @@ payload:
   - 'aiqiyi.com'
   - 'gravatar.loli.net'
   - 'webbb.azurewebsites.net'
+  - '+.bbibe.com'
+  - '+.10010.com'
+  - '+.10010.cn'
   
   
