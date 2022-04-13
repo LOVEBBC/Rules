@@ -23,7 +23,6 @@ dm.toutiao.com
 crab.baidu.com
 feed-image.baidu.com
 caid.baidu.com
-mbd.baidu.com
 dm.bytedance.com
 browserkernel.baidu.com
 aod-image.baidu.com
