@@ -18,7 +18,6 @@ tiebaac.baidu.com
 .bcebos.com
 tcbox.baidu.com
 tiebac.baidu.com
-mbd.baidu.com
 dm.toutiao.com
 crab.baidu.com
 feed-image.baidu.com
@@ -34,7 +33,6 @@ hmma.baidu.com
 hpd.baidu.com
 pic.rmb.bdstatic.com
 hectorstatic.baidu.com
-ss0.baidu.com
 ss1.baidu.com
 ss2.baidu.com
 dataaq.yy.com
