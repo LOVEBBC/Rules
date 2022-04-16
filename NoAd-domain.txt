@@ -26,7 +26,6 @@ dm.bytedance.com
 browserkernel.baidu.com
 aod-image.baidu.com
 pim.baidu.com
-c.tieba.baidu.com
 feed.baidu.com
 sm.bdimg.com
 hmma.baidu.com
