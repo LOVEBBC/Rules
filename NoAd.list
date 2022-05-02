@@ -50,6 +50,7 @@ DOMAIN,mobads.baidu.com
 DOMAIN,mobads-logs.baidu.com
 DOMAIN,nadvideo2.baidu.com
 DOMAIN,nsclick.baidu.com
+DOMAIN,112.80.248.167/tiebaads/commonbatch?adcmd=picbanner
 # > iQIYI
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,t7z.cupid.ptqy.gitv.tv
