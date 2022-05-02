@@ -50,6 +50,7 @@ DOMAIN,mobads.baidu.com
 DOMAIN,mobads-logs.baidu.com
 DOMAIN,nadvideo2.baidu.com
 DOMAIN,nsclick.baidu.com
+IP-CIDR,112.80.248.167/32,no-resolve
 # > iQIYI
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,t7z.cupid.ptqy.gitv.tv
