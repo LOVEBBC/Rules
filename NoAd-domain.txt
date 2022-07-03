@@ -27,7 +27,6 @@ browserkernel.baidu.com
 aod-image.baidu.com
 pim.baidu.com
 feed.baidu.com
-sm.bdimg.com
 hmma.baidu.com
 hpd.baidu.com
 pic.rmb.bdstatic.com
