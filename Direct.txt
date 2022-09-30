@@ -1,6 +1,5 @@
 .apple.com
 .imlzc.com
-.jsdelivr.net
 .aliyundrive.com
 .wmdang.com
 taobao.com
@@ -29,7 +28,6 @@ stat.tpns.tencent.com
 .octopuscards.com
 .octopus-cards.com
 .octopus.com.hk
-.bbibe.com
 amp-api.apps.apple.com
 
 
