@@ -5,6 +5,9 @@ DOMAIN-SUFFIX,control.vpn.qq.com
 DOMAIN-KEYWORD,adservice
 
 #屏蔽ios更新
+DOMAIN,ocsp.int-x3.letsencrypt.org
+DOMAIN,world-gen.g.aaplimg.com
+DOMAIN,ocsp.apple.com
 DOMAIN,mesu.apple.com
 DOMAIN,gdmf.apple.com
 
