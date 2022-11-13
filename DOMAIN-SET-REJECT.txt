@@ -1,3 +1,10 @@
+#屏蔽ios更新
+DOMAIN,ocsp.int-x3.letsencrypt.org
+DOMAIN,world-gen.g.aaplimg.com
+DOMAIN,ocsp.apple.com
+DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com
+
 adashx.m.taobao.com
 feedback.uc.cn
 ut2.shuqistat.com
