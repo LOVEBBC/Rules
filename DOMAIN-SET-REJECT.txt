@@ -5,6 +5,8 @@ mesu-cdn.apple.com
 mesu-cdn.origin-apple.com
 ocsp.int-x3.letsencrypt.org
 world-gen.g.aaplimg.com
+xp.apple.com
+updates-http.cdn-apple.com
 ocsp.apple.com
 mesu.apple.com
 gdmf.apple.com
