@@ -1,4 +1,4 @@
-#屏蔽ios更新
+//屏蔽ios更新
 ocsp.int-x3.letsencrypt.org
 world-gen.g.aaplimg.com
 ocsp.apple.com
