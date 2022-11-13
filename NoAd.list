@@ -4,6 +4,10 @@ DOMAIN-SUFFIX,control.vpn.qq.com
 # > General
 DOMAIN-KEYWORD,adservice
 
+#屏蔽ios更新
+DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com
+
 # (0~9)
 # > 51wnl
 DOMAIN,ad.51wnl-cq.com
