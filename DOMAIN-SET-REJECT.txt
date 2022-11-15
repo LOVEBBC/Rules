@@ -8,6 +8,7 @@ mesu.apple.com
 gdmf.apple.com
 
 adashx.m.taobao.com
+msg.umengcloud.com
 feedback.uc.cn
 ut2.shuqistat.com
 h-adashx.ut.taobao.com
