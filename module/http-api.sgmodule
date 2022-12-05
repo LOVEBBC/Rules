@@ -1,5 +1,5 @@
-#!name=TUN Only
-#!desc=开启 Tun Only //兼容模式，解决某些APP用代理不能正常连接的问题
+#!name=VIF Only
+#!desc=开启 VIF Only //兼容模式，解决某些APP用代理不能正常连接的问题
 #!system=ios
 
 [General]
