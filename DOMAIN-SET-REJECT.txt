@@ -17,6 +17,7 @@ ulogs.umeng.com
 ulogs.umengcloud.com
 log.umsns.com
 plbslog.umeng.com
+.pangolin-sdk-toutiao-b.com
 
 
 smr.snssdk.com
