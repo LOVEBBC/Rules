@@ -29,5 +29,5 @@ stat.tpns.tencent.com
 .octopus-cards.com
 .octopus.com.hk
 amp-api.apps.apple.com
-
+.seagm.com
 
