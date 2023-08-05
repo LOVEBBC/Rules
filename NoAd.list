@@ -5,6 +5,8 @@ DOMAIN-SUFFIX,control.vpn.qq.com
 DOMAIN-KEYWORD,adservice
 
 # (0~9)
+#联通手厅
+DOMAIN-SUFFIX,ad.10010.com
 # > 51wnl
 DOMAIN,ad.51wnl-cq.com
 DOMAIN,adextra.51wnl-cq.com
