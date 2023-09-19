@@ -2,6 +2,17 @@
 # DIY
 DOMAIN-SUFFIX,ipip.net
 DOMAIN-SUFFIX,paypal.com
+# > Apple private relay
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud-content.com DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
 # > Amazon
 DOMAIN-SUFFIX,amazon.co.jp
 DOMAIN,d3c33hcgiwev3.cloudfront.net
