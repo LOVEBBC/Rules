@@ -1,6 +1,6 @@
 #bilibili
 t-dsp.pinduoduo.com
-line3-h5-mobile-api.biligame.com
+biligame.com
 i2.hdslb.com
 mall.bilibili.com
 #屏蔽ios更新
