@@ -1,7 +1,7 @@
 #bilibili
 t-dsp.pinduoduo.com
 biligame.com
-i2.hdslb.com
+hdslb.com
 mall.bilibili.com
 #屏蔽ios更新
 mesu.g.aaplimg.com
