@@ -1,5 +1,6 @@
 #bilibili
 t-dsp.pinduoduo.com
+line3-h5-mobile-api.biligame.com
 #屏蔽ios更新
 mesu.g.aaplimg.com
 mesu-cdn.apple.com
