@@ -1,7 +1,6 @@
 #bilibili
 t-dsp.pinduoduo.com
 .biligame.com
-.hdslb.com
 mall.bilibili.com
 upos-sz-mirrorcos.bilivideo.com
 #屏蔽ios更新
