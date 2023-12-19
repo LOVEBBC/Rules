@@ -39,12 +39,9 @@ caid.baidu.com
 dm.bytedance.com
 browserkernel.baidu.com
 aod-image.baidu.com
-pim.baidu.com
 feed.baidu.com
 pic.rmb.bdstatic.com
 hectorstatic.baidu.com
-ss1.baidu.com
-ss2.baidu.com
 dataaq.yy.com
 mlog.bigda.com
 tb-video.bdstatic.com
