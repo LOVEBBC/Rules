@@ -32,8 +32,6 @@ dm-hl.toutiao.com
 tiebaac.baidu.com
 .pglstatp-toutiao.com
 .bcebos.com
-tcbox.baidu.com
-tiebac.baidu.com
 dm.toutiao.com
 crab.baidu.com
 feed-image.baidu.com
@@ -43,7 +41,6 @@ browserkernel.baidu.com
 aod-image.baidu.com
 pim.baidu.com
 feed.baidu.com
-hpd.baidu.com
 pic.rmb.bdstatic.com
 hectorstatic.baidu.com
 ss1.baidu.com
