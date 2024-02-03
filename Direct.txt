@@ -30,4 +30,7 @@ stat.tpns.tencent.com
 .octopus.com.hk
 amp-api.apps.apple.com
 .seagm.com
+.weixin.qq.com
+.servicewechat.com
+
 
