@@ -14,6 +14,8 @@ DOMAIN,a248.e.akamai.net
 DOMAIN,a771.dscq.akamai.net
 # > Apple
 DOMAIN,testflight.apple.com
+# > Microsoft
+DOMAIN-SUFFIX,Bing.com
 # > Crypto
 DOMAIN-SUFFIX,aex.com
 DOMAIN-SUFFIX,bibox.com
