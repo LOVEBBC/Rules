@@ -21,6 +21,14 @@ DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ads.internal.unity3d.com
 DOMAIN-SUFFIX,ads.prd.ie.internal.unity3d.com
 DOMAIN-SUFFIX,unityads.unity3d.com
+# 屏蔽ios更新
+DOMAIN,mesu.g.aaplimg.com
+DOMAIN,mesu-cdn.apple.com
+DOMAIN,mesu-cdn.origin-apple.com
+DOMAIN,xp.apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,mesu.apple.com
+DOMAIN,gdmf.apple.com
 # --- (Alibaba) ---
 DOMAIN,tunion-api.m.taobao.com
 # > YOUKU
@@ -41,12 +49,28 @@ DOMAIN,adm0.autoimg.cn
 DOMAIN,adm1.autoimg.cn
 DOMAIN,adm2.autoimg.cn
 DOMAIN,adm3.autoimg.cn
+# > Taobao
+DOMAIN,adashx.m.taobao.com
+DOMAIN,feedback.uc.cn
+DOMAIN,h-adashx.ut.taobao.com
+DOMAIN,ut2.shuqistat.com
 
 # (B)
 # --- (Baidu) ---
+DOMAIN-SUFFIX,crab.baidu.com
+DOMAIN-SUFFIX,feed-image.baidu.com
+DOMAIN-SUFFIX,caid.baidu.com
+DOMAIN-SUFFIX,dm.bytedance.com
+DOMAIN-SUFFIX,browserkernel.baidu.com
+DOMAIN-SUFFIX,aod-image.baidu.com
+DOMAIN-SUFFIX,feed.baidu.com
+DOMAIN-SUFFIX,pic.rmb.bdstatic.com
+DOMAIN-SUFFIX,hectorstatic.baidu.com
 DOMAIN-SUFFIX,duapps.com
 DOMAIN-SUFFIX,cpro.baidu.com
 DOMAIN-SUFFIX,pos.baidu.com
+DOMAIN-SUFFIX,mlog.bigda.com
+DOMAIN-SUFFIX,tb-video.bdstatic.com
 DOMAIN,afd.baidu.com
 DOMAIN,als.baidu.com
 DOMAIN,duclick.baidu.com
@@ -54,7 +78,10 @@ DOMAIN,mobads.baidu.com
 DOMAIN,mobads-logs.baidu.com
 DOMAIN,nadvideo2.baidu.com
 DOMAIN,nsclick.baidu.com
+DOMAIN,mbs1.bdstatic.com
+DOMAIN,b.bdstatic.com
 DOMAIN,112.80.248.167/tiebaads/commonbatch?adcmd=picbanner
+
 # > iQIYI
 DOMAIN,t7z.cupid.iqiyi.com
 DOMAIN,t7z.cupid.ptqy.gitv.tv
@@ -64,6 +91,12 @@ IP-CIDR,101.227.200.28/32,no-resolve
 IP-CIDR,124.192.153.42/32,no-resolve
 # ------
 # > ByteDance
+#   > Toutiao
+DOMAIN,dm-lq.toutiao.com
+DOMAIN-SUFFIX,pangolin-sdk-toutiao-b.com
+DOMAIN,dm-hl.toutiao.com
+DOMAIN-SUFFIX,pglstatp-toutiao.com
+DOMAIN,dm.toutiao.com
 DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
 DOMAIN,ad.toutiao.com
 DOMAIN,pangolin.snssdk.com
@@ -156,6 +189,9 @@ DOMAIN,ws.ksmobile.net
 # > Kuaishou
 DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN,js-ad.a.yximgs.com
+# > Kugou
+DOMAIN-SUFFIX,d.kugou.com
+DOMAIN-SUFFIX,mobilelog.kugou.com
 
 # (L)
 # > Le
@@ -270,6 +306,17 @@ DOMAIN,splashqqlive.gtimg.com
 DOMAIN,wa.gtimg.com
 DOMAIN,wxsnsdy.wxs.qq.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
+DOMAIN-SUFFIX,vi.bls.mdt.qq.com
+DOMAIN-SUFFIX,gvc.vod.tencent-cloud.com
+DOMAIN-SUFFIX,aedns.weixin.qq.com
+DOMAIN-SUFFIX,adsmind.apdcdn.tc.qq.com
+DOMAIN-SUFFIX,adsmind.tc.qq.com
+DOMAIN-SUFFIX,gdtimg.com
+DOMAIN-SUFFIX,ugdtimg.com
+DOMAIN-SUFFIX,wxsnsdy.wxs.qq.com
+DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com
+DOMAIN-SUFFIX,qidian.qpic.cn
+DOMAIN-SUFFIX,news.l.qq.com
 # > Tencent Music (TME)
 DOMAIN,ad.tencentmusic.com
 DOMAIN,adstats.tencentmusic.com
@@ -282,7 +329,7 @@ DOMAIN,kgmobilestatbak.kugou.com
 DOMAIN,mobilelog.kugou.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
-# ------
+# (T)------
 # > TongHuaShun
 DOMAIN,adm.10jqka.com.cn
 DOMAIN,stat.10jqka.com.cn
@@ -293,6 +340,12 @@ DOMAIN,imgadpai.thepaper.cn
 # > Thunder
 DOMAIN,adsp.xunlei.com
 DOMAIN,etl.xlmc.sandai.net
+# > Umeng
+DOMAIN,msg.umengcloud.com
+DOMAIN,ulogs.umeng.com
+DOMAIN,ulogs.umengcloud.com
+DOMAIN,log.umsns.com
+DOMAIN,plbslog.umeng.com
 
 # (V)
 # > VariFlight
@@ -340,6 +393,8 @@ DOMAIN,ads.auctions.yahoo.com
 DOMAIN,ads.finance.yahoo.com
 DOMAIN,ads.yahoo.com
 DOMAIN,ads.yahoo.de
+# > YY
+DOMAIN-SUFFIX,dataaq.yy.com
 
 # (Z)
 # > Zhihu
