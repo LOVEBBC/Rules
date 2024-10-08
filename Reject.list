@@ -3,6 +3,7 @@
 DOMAIN-KEYWORD,adservice
 
 # (A)------
+DOMAIN,aax-us-east.amazon-adsystem.com
 # > Apple
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,ads.internal.unity3d.com
@@ -37,12 +38,15 @@ DOMAIN,adm1.autoimg.cn
 DOMAIN,adm2.autoimg.cn
 DOMAIN,adm3.autoimg.cn
 # > Taobao
+DOMAIN,atoken.m.taobao.com
 DOMAIN,adashx.m.taobao.com
 DOMAIN,feedback.uc.cn
 DOMAIN,h-adashx.ut.taobao.com
 DOMAIN,ut2.shuqistat.com
 
 # (B)
+DOMAIN,mobads-pre-config.cdn.bcebos.com
+DOMAIN-SUFFIX,bestadprof.com
 # --- (Baidu) ---
 DOMAIN-SUFFIX,crab.baidu.com
 DOMAIN-SUFFIX,feed-image.baidu.com
@@ -128,9 +132,12 @@ DOMAIN,ad.360in.com
 DOMAIN,exp.360in.com
 
 # (D)
+DOMAIN,webcast-open.douyin.com
 # > Douban
 AND,((USER-AGENT,Frodo*), (DOMAIN,119.29.29.29))
 
+# (F)-------
+DOMAIN,fp-it.fengkongcloud.com
 # (G)
 # > Google
 DOMAIN-SUFFIX,doubleclick.net
@@ -141,6 +148,7 @@ DOMAIN-SUFFIX,googletagservices.com
 DOMAIN,ads.youtube.com
 
 # (H)
+DOMAIN,adx.halomobi.com
 # > HunanTV
 DOMAIN-SUFFIX,da.mgtv.com
 DOMAIN-SUFFIX,da.hunantv.com
@@ -160,6 +168,10 @@ DOMAIN,rp.hpplay.cn
 DOMAIN,rpt.hpplay.cn
 
 # (J)
+# >Jd
+DOMAIN,dsp-x.jd.com
+DOMAIN,janapi.jd.com
+DOMAIN,im-x.jd.com
 # >jxedt
 DOMAIN,richmanapi.jxedt.com
 DOMAIN,richmanmain.jxedt.com
@@ -176,6 +188,7 @@ DOMAIN,mobad.ijinshan.com
 DOMAIN,ups.ksmobile.net
 DOMAIN,ws.ksmobile.net
 # > Kuaishou
+DOMAIN,open.e.kuaishou.cn
 DOMAIN-SUFFIX,e.kuaishou.com
 DOMAIN,js-ad.a.yximgs.com
 # > Kugou
@@ -228,6 +241,7 @@ DOMAIN,yt-adp.ws.126.net
 
 # (P)
 # > PDD
+DOMAIN,xg.pinduoduo.com
 DOMAIN,t-dsp.pinduoduo.com
 # > PPTV
 DOMAIN,ads.aplus.pptv.com
@@ -253,6 +267,7 @@ DOMAIN,api.newad.ifeng.com
 DOMAIN,ifengad.3g.ifeng.com
 
 # (Q)
+DOMAIN,a6-remad.qm989.com
 # > QingTing
 DOMAIN,ad.qingting.fm
 DOMAIN,adlaunch.qingting.fm
@@ -262,6 +277,7 @@ DOMAIN-SUFFIX,ads.oppomobile.com
 DOMAIN,adsfs.oppomobile.com
 
 # (S)
+DOMAIN,sdk-log.partner.sm.cn
 # > Sina
 DOMAIN-SUFFIX,alitui.weibo.com
 DOMAIN-SUFFIX,beacon.sina.com.cn
@@ -323,6 +339,9 @@ DOMAIN,mobilelog.kugou.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,rich.kuwo.cn
 # (T)------
+DOMAIN,api-access.pangolin-sdk-toutiao1.com
+DOMAIN-SUFFIX,tanx.com
+DOMAIN-SUFFIX,bestadprof.com
 # > TongHuaShun
 DOMAIN,adm.10jqka.com.cn
 DOMAIN,stat.10jqka.com.cn
@@ -335,9 +354,14 @@ DOMAIN,adsp.xunlei.com
 DOMAIN,etl.xlmc.sandai.net
 
 # (U)------
+# > UC
+DOMAIN,partner.uc.cn
+# > Ubi
+DOMAIN-SUFFIX,ubixioe.com
 # > Unicom
 DOMAIN-SUFFIX,ad.10010.com
 # > Umeng
+DOMAIN,utoken.umeng.com
 DOMAIN,msg.umengcloud.com
 DOMAIN,ulogs.umeng.com
 DOMAIN,ulogs.umengcloud.com
@@ -364,6 +388,8 @@ DOMAIN,ads.viber.com
 DOMAIN,ads-d.viber.com
 DOMAIN,ads.aws.viber.com
 
+# (W)------
+DOMAIN,cdn-new-ad.wtzw.com
 # (X)
 # > Ximalaya
 DOMAIN,ad.ximalaya.com
