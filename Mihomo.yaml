@@ -136,7 +136,7 @@ proxies:
   headers:
    host: ace.bbibe.com
    
-- name: "cone"
+- name: "CONE"
   type: trojan
   server: "cone.bbibe.com"
   port: "443"
@@ -150,6 +150,14 @@ proxies:
   headers:
    host: cone.bbibe.com
 
+proxy-groups:
+- name: 节点选择
+  type: select
+  proxies:
+  - DIRECT
+  - REJETC
+  - AAC
+  - CONE
  
 # 锚点
 pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
@@ -157,25 +165,25 @@ pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日�
 rules:
   - RULE-SET,private_domain,🟢 直连
   - RULE-SET,apple_domain,🟢 直连
-  - RULE-SET,proxylite,AAC
-  - RULE-SET,ai,AAC
-  - RULE-SET,github_domain,AAC
-  - RULE-SET,youtube_domain,AAC
-  - RULE-SET,google_domain,AAC
-  - RULE-SET,onedrive_domain,AAC
-  - RULE-SET,microsoft_domain,AAC
-  - RULE-SET,tiktok_domain,AAC
-  - RULE-SET,speedtest_domain,AAC
-  - RULE-SET,telegram_domain,AAC
-  - RULE-SET,netflix_domain,AAC
-  - RULE-SET,paypal_domain,AAC
+  - RULE-SET,proxylite,节点选择
+  - RULE-SET,ai,节点选择
+  - RULE-SET,github_domain,节点选择
+  - RULE-SET,youtube_domain,节点选择
+  - RULE-SET,google_domain,节点选择
+  - RULE-SET,onedrive_domain,节点选择
+  - RULE-SET,microsoft_domain,节点选择
+  - RULE-SET,tiktok_domain,节点选择
+  - RULE-SET,speedtest_domain,节点选择
+  - RULE-SET,telegram_domain,节点选择
+  - RULE-SET,netflix_domain,节点选择
+  - RULE-SET,paypal_domain,节点选择
   - RULE-SET,geolocation-!cn,🟢 直连
   - RULE-SET,cn_domain,🟢 直连
-  - RULE-SET,google_ip,AAC
-  - RULE-SET,netflix_ip,AAC
-  - RULE-SET,telegram_ip,AAC
+  - RULE-SET,google_ip,节点选择
+  - RULE-SET,netflix_ip,节点选择
+  - RULE-SET,telegram_ip,节点选择
   - RULE-SET,cn_ip,🟢 直连
-  - MATCH,AAC
+  - MATCH,节点选择
 rule-anchor:
   ip: &ip {type: http, interval: 86400, behavior: ipcidr, format: mrs}
   domain: &domain {type: http, interval: 86400, behavior: domain, format: mrs}
