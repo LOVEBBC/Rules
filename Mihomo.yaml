@@ -120,7 +120,12 @@ dns:
 proxies:
 - name: "🟢 直连"
   type: direct
+  udp: true  
+
+- name: "REJECT"
+  type: reject
   udp: true
+
 
 - name: "AAC"
   type: trojan
