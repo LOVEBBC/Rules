@@ -135,6 +135,20 @@ proxies:
    path: "/836e2e60"
   headers:
    host: ace.bbibe.com
+   
+- name: "cone"
+  type: trojan
+  server: "cone.bbibe.com"
+  port: "443"
+  password: "cone202202"
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  sni: "cone.bbibe.com"
+  ws-opts:
+   path: "/425c8807"
+  headers:
+   host: cone.bbibe.com
 
  
 # 锚点
