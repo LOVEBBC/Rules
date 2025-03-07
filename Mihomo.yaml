@@ -157,8 +157,7 @@ proxy-groups:
   - AAC
   - CONE
  
-# 锚点
-pr: &pr {type: select, proxies: [🚀 节点选择, 🔯 香港故转, 🔯 日本故转, ♻️ 香港自动, ♻️ 日本自动, ♻️ 美国自动, ♻️ 自动选择, 🇭🇰 香港节点, 🇯🇵 日本节点, 🇺🇲 美国节点, 🌐 全部节点, 🟢 直连]}
+
 # 策略组
 rules:
   - RULE-SET,reject,REJECT
