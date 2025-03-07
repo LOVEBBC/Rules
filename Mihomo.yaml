@@ -122,9 +122,7 @@ proxies:
   type: direct
   udp: true  
 
-- name: "REJECT"
-  type: reject
-  udp: true
+
 
 
 - name: "AAC"
@@ -160,7 +158,6 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-  - REJETC
   - AAC
   - CONE
  
