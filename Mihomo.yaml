@@ -154,8 +154,8 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-  - AAC
-  - CONE
+  - non
+  - non2
  
 
 # 策略组
