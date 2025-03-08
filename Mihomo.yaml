@@ -1,0 +1,231 @@
+#proxy-providers:
+   #Airport_01:
+    #type: http
+    #interval: 1800
+    #health-check:
+      #enable: true
+      #url: <https://www.gstatic.com/generate_204>
+      #interval: 300
+    #proxy: 🟢 直连
+    #url: "这里改成你的订阅地址"
+      
+# 用于下载订阅时指定UA
+#global-ua: clash
+    
+# 全局配置
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7894
+ipv6: false
+allow-lan: true
+unified-delay: true
+tcp-concurrent: true
+  
+geodata-mode: false
+# GEO 文件加载模式（standard：标准加载器/memconservative：专为内存受限 (小内存) 设备优化的加载器 (默认值)）
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 48
+geox-url:
+  geoip: "<https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat>"
+  geosite: "<https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat>"
+  mmdb: "<https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb>"
+  asn: "<https://github.com/xishang0128/geoip/releases/download/latest/GeoLite2-ASN.mmdb>"
+  
+# 控制面板
+external-controller: 0.0.0.0:9090
+secret: ""
+external-ui: ui
+external-ui-url: "<https://ghp.ci/https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip>"
+
+# 匹配进程 always/strict/off
+find-process-mode: strict
+global-client-fingerprint: chrome
+keep-alive-idle: 600
+keep-alive-interval: 30
+
+# 策略组选择和fakeip缓存
+profile:
+  store-selected: true
+  store-fake-ip: true
+  
+# 流量嗅探
+sniffer:
+  enable: true
+  sniff:
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+    TLS:
+      ports: [443, 8443]
+    QUIC:
+      ports: [443, 8443]
+  force-domain:
+    - +.v2ex.com
+  skip-domain:
+    - "Mijia Cloud"
+    - "dlg.io.mi.com"
+    - "+.push.apple.com"
+    - "+.apple.com"
+    
+# 代理模式
+tun:
+  enable: true
+  stack: mixed
+  mtu: 9000
+  dns-hijack:
+    - "any:53"
+    - "tcp://any:53"
+  auto-route: true
+  auto-redirect: true
+  auto-detect-interface: true
+  
+# DNS模块
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  ipv6: false
+  respect-rules: true
+  # 模式切换 redir-host / fake-ip
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8
+  # 模式切换 whitelist/blacklist 
+  # 黑名单模式表示如果匹配成功则不返回 Fake-IP, 白名单模式时只有匹配成功才返回 Fake-IP
+  fake-ip-filter-mode: blacklist
+  fake-ip-filter:
+    - "+.lan"
+    - "+.local"
+    - geosite:private
+    - geosite:cn
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  proxy-server-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver-policy:
+    "rule-set:private,direct":
+    - 223.5.5.5
+    - 119.29.29.29
+   
+ 
+   
+proxies:
+- name: "🟢 直连"
+  type: direct
+  udp: true  
+
+
+- name: "non"
+  type: trojan
+  server: "abc.com"
+  port: "443"
+  password: "8888888"
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  sni: "abc.com"
+  ws-opts:
+   path: "/836e2e60"
+  headers:
+   host: ace.bbibe.com
+   
+- name: "non2"
+  type: trojan
+  server: "abc.com"
+  port: "8080"
+  password: "8888888"
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  sni: "abc.com"
+  ws-opts:
+   path: "/425c8807"
+  headers:
+   host: abc.com
+
+proxy-groups:
+- name: 节点选择
+  type: select
+  proxies:
+  - DIRECT
+  - non
+  - non2
+ 
+
+# 策略组
+rules:
+  - RULE-SET,reject,REJECT
+  - RULE-SET,icloud,🟢 直连
+  - RULE-SET,apple,🟢 直连
+  - RULE-SET,google,节点选择
+  - RULE-SET,proxy,节点选择
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,private,🟢 直连
+  - RULE-SET,gfw,节点选择
+  - GEOIP,LAN,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,节点选择
+
+rule-providers: 
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+ 
