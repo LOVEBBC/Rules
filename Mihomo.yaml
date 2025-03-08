@@ -121,7 +121,7 @@ proxies:
   udp: true  
 
 
-- name: "AAC"
+- name: "non"
   type: trojan
   server: "abc.com"
   port: "443"
@@ -135,7 +135,7 @@ proxies:
   headers:
    host: ace.bbibe.com
    
-- name: "CONE"
+- name: "non2"
   type: trojan
   server: "abc.com"
   port: "8080"
