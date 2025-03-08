@@ -123,13 +123,13 @@ proxies:
 
 - name: "AAC"
   type: trojan
-  server: "aac.bbibe.com"
+  server: "abc.com"
   port: "443"
-  password: "aac202202"
+  password: "8888888"
   network: ws
   udp: true
   skip-cert-verify: false
-  sni: "aac.bbibe.com"
+  sni: "abc.com"
   ws-opts:
    path: "/836e2e60"
   headers:
@@ -137,17 +137,17 @@ proxies:
    
 - name: "CONE"
   type: trojan
-  server: "cone.bbibe.com"
+  server: "abc.com"
   port: "8080"
-  password: "cone202202"
+  password: "8888888"
   network: ws
   udp: true
   skip-cert-verify: false
-  sni: "cone.bbibe.com"
+  sni: "abc.com"
   ws-opts:
    path: "/425c8807"
   headers:
-   host: cone.bbibe.com
+   host: abc.com
 
 proxy-groups:
 - name: 节点选择
